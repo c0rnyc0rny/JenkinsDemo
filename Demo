@@ -1,0 +1,53 @@
+Benötigte offene Ressourcen:
+Terminal: 
+#### Intro Maven Project ###
+Hier HelloWorld Projekt
+ - git Repo
+ - cd BP_AP2_2016/JenkinsDemo/helloworld/
+ - maven Projekt
+ - mvn package
+ - pwd - Pfad
+
+### Intro Jenkins ###
+Jenkins
+ - Oberfläche
+ - benötigte PlugIns (git, Maven)
+ - Java + Maven in Einstellungen setzen
+
+### HelloWorld Job CI aufsetzen ###
+ - neues Projekt
+ - FreestyleProjekt (größte Einstellungsmöglickeiten)
+ 	- Name
+	- Description
+	- SCM - Repo (git)
+	- */master Branch
+ - Build Trigger --> später
+ - Build
+ 	- Build Management Tool Maven
+--> Build Starten
+--> erfolgreich
+
+### Commit Trigger ###
+Frage -> wie schaffe ich das jetzt automatisch?
+--> git hooks 
+--> Konsole
+ - cd .git/hooks/
+ - ls (einige Datein vorhanden - meiste sample)
+ - gedit post-commit <-> Configure Test Projekt
+ - richtige URL einfügen <-> Token festlegen
+
+ - kleine Codeänderung -> commit -> automatischen Build zeigen
+
+
+### Jenkins CD Pipeline aufsetzen ###
+--> CI läuft
+--> wie CD Piepline aufsetzen?
+ - PlugIn Pipeline
+	Check
+	Show static analysis results		
+ 	Show total build time
+ - Components (FirstJob - Initial Test)
+
+
+--> Deploy Pipeline
+
