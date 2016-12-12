@@ -1,9 +1,9 @@
 Benötigte offene Ressourcen:
-Terminal: 
+
 #### Intro Maven Project ###
 Hier HelloWorld Projekt
  - git Repo
- - cd BP_AP2_2016/JenkinsDemo/helloworld/
+== cd BP_AP2_2016/JenkinsDemo/helloworld/
  - maven Projekt
  - mvn package
  - pwd - Pfad
@@ -50,4 +50,21 @@ Frage -> wie schaffe ich das jetzt automatisch?
 
 
 --> Deploy Pipeline
+ - Add PlugIn - Build Pipeline
+ - Add View BuildPipeline
+ - sure initial is right Project
+
+
+## Travis CI
+add/gedit .travis.yml
+push
+== Travis Tab Chrome
+
+## Travis + Heroku
+
+== Terminal cd /home/corni/RubymineProjects/swt2/workshop-portal
+gedit .travis.yml
+== Travis Tab Swt2
+== Heroku App dev + Master
+
 
